@@ -43,7 +43,7 @@ If you are running Fedora or CentOS than use the yum installer
 
 next you can clone the imixs-cloud repo from github....
 
-	$ cd && git clone https://github.com/imixs/imixs-cloud.git
+	$ cd && git clone https://github.com/pmpcosta/imixs-cloud.git
 	$ cd imixs-cloud/
 
 now you can run the setup script on your master node to install Docker and Kubernetes:
@@ -109,7 +109,7 @@ The basic architecture of the _Imixs-Cloud_ consists of the following components
  
 The complete infrastructure of a _Imixs-Cloud_ environment is described in one central configuration directory. The _Configuration Directory_ can be synchronized with a code repository like Git. This makes it easy to role back changes if something went wrong. You can always start with a new environment by just forking this Github repository. 
 
-	$ git clone https://github.com/imixs/imixs-cloud.git && rm -rf imixs-cloud/.git/
+	$ git clone https://github.com/pmpcosta/imixs-cloud.git && rm -rf imixs-cloud/.git/
 
 The imixs-cloud directory structure contains different sub-directories holding your applications, scripts and tools:
 
@@ -228,6 +228,6 @@ The monitoring is based on [Prometheus](https://prometheus.io/) which is an open
 # Contribute
 
 _Imixs-Cloud_ is open source and your are sincerely invited to participate in it. 
-If you want to contribute to this project please [report any issues here](https://github.com/imixs/imixs-cloud/issues). 
-All source are available on [Github](https://github.com/imixs/imixs-cloud).
+If you want to contribute to this project please report any issues here [...or here](https://github.com/imixs/imixs-cloud/issues). 
+All sources are available on [Github](https://github.com/imixs/imixs-cloud).
 
